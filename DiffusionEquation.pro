@@ -11,11 +11,13 @@ CONFIG += c++17
 SOURCES += \
     src/main.cpp \
     src/mainwindow.cpp \
-    src/qcustomplot.cpp
+    src/qcustomplot.cpp \
+    src/solver.cpp
 
 HEADERS += \
     headers/mainwindow.h \
-    headers/qcustomplot.h
+    headers/qcustomplot.h \
+    headers/solver.h
 
 FORMS += \
     forms/mainwindow.ui
